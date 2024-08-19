@@ -7,21 +7,21 @@ const Header = ({ brandName }) => {
         {`${brandName}.`}
       </a>
       <nav>
-        <ul className="flex text-xs justify-between items-center h-full gap-4 whitespace-nowrap">
+        <ul className="flex text-xs justify-between items-center h-full sm:gap-16 whitespace-nowrap">
           <li>
-            <a href="./" className={`hover:text-blue-500 ${currentUrl === "" ? "text-blue-500" : undefined}`}>
+            <a href="./" className={`hover:text-primary ${currentUrl === "" ? "text-primary" : undefined}`}>
               Home
             </a>
           </li>
           <li>
-            <a href="./cv" className={`hover:text-blue-500 ${currentUrl === "cv" ? "text-blue-500" : undefined}`}>
+            <a href="./cv" className={`hover:text-primary ${currentUrl === "cv" ? "text-primary" : undefined}`}>
               CV
             </a>
           </li>
           <li>
             <a
               href="./portfolio"
-              className={`hover:text-blue-500 ${currentUrl === "portfolio" ? "text-blue-500" : undefined}`}
+              className={`hover:text-primary ${currentUrl === "portfolio" ? "text-primary" : undefined}`}
             >
               Portfolio
             </a>
@@ -29,7 +29,7 @@ const Header = ({ brandName }) => {
           <li>
             <a
               href="./certifications"
-              className={`hover:text-blue-500 ${currentUrl === "certifications" ? "text-blue-500" : undefined}`}
+              className={`hover:text-primary ${currentUrl === "certifications" ? "text-primary" : undefined}`}
             >
               Certifications
             </a>
