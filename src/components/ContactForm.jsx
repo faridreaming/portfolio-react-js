@@ -1,12 +1,12 @@
 const ContactForm = () => {
   return (
-    <form className="flex flex-col gap-3 [&>*]:transition text-sm">
+    <form className="flex flex-col gap-3 text-sm [&>*]:transition">
       <input
         type="text"
         name="name"
         id="name"
         placeholder="Name"
-        className="px-3 py-2 w-full outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
+        className="w-full px-3 py-2 outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
         autoComplete="off"
       />
       <input
@@ -14,26 +14,28 @@ const ContactForm = () => {
         name="email"
         id="email"
         placeholder="Email"
-        className="px-3 py-2 w-full outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
+        className="w-full px-3 py-2 outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
         autoComplete="off"
       />
       <input
-        type="number"
+        type="text"
+        inputMode="numeric"
+        pattern="[0-9]*"
         name="phone"
         id="phone"
         placeholder="Phone"
-        className="px-3 py-2 w-full outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
+        className="w-full px-3 py-2 outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
         autoComplete="off"
       />
       <textarea
         name="message"
         id="message"
         placeholder="Type your message here"
-        className="px-3 py-2 w-full h-24 outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
+        className="h-24 w-full px-3 py-2 outline-none focus:bg-transparent focus:text-white focus:ring-1 focus:ring-white"
       ></textarea>
       <button
         type="submit"
-        className="w-1/2 bg-transparent text-white outline-none border py-1 self-end font-semibold hover:bg-white hover:text-primary focus:bg-white focus:text-primary transition"
+        className="w-1/2 self-end border bg-transparent py-1 font-semibold text-white outline-none transition hover:bg-white hover:text-primary focus:bg-white focus:text-primary sm:w-fit sm:px-6"
       >
         Submit
       </button>
