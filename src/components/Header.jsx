@@ -2,13 +2,13 @@ const Header = ({ brandName }) => {
   const currentUrl = window.location.href.split("/").pop();
 
   return (
-    <header className="sticky top-0 bg-white shadow z-50">
-      <div className="container max-w-4xl mx-auto bg-white px-8 py-10 flex flex-col gap-4 sm:flex-row sm:justify-between">
-        <a href="./" className="font-poppins font-bold uppercase text-lg tracking-widest text-black">
+    <header className="sticky top-0 z-50 bg-white shadow">
+      <div className="container mx-auto flex max-w-4xl flex-col gap-4 bg-white px-8 py-10 sm:flex-row sm:justify-between">
+        <a href="./" className="font-poppins text-lg font-bold uppercase tracking-widest text-black">
           {`${brandName}.`}
         </a>
         <nav>
-          <ul className="flex text-xs justify-between items-center h-full sm:gap-16 whitespace-nowrap">
+          <ul className="flex h-full items-center justify-between whitespace-nowrap text-xs sm:gap-16">
             <li>
               <a href="./" className={`hover:text-primary ${currentUrl === "" ? "text-primary" : undefined}`}>
                 Home
