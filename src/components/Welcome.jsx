@@ -1,7 +1,7 @@
 const Welcome = () => {
   return (
-    <div className="container mx-auto max-w-4xl h-[60svh] flex items-center px-8">
-      <h1 className="font-semibold font-poppins text-3xl sm:text-4xl text-primary tracking-wider [word-spacing:0.5rem] leading-normal">
+    <div className="container mx-auto flex h-[60svh] max-w-4xl items-center px-8">
+      <h1 className="font-poppins text-3xl font-semibold leading-normal tracking-wider text-primary [word-spacing:0.5rem] sm:text-4xl">
         Hi, I'm Farid! <br />
         I'm a software engineer, and I love to build things with code.
       </h1>
