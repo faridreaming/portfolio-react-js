@@ -7,7 +7,7 @@ const Header = ({ brandName }) => {
         <a href="./" className="font-poppins text-lg font-bold uppercase tracking-widest text-black">
           {`${brandName}.`}
         </a>
-        <nav>
+        <nav className="tracking-wider">
           <ul className="flex h-full items-center justify-between whitespace-nowrap text-xs sm:gap-16">
             <li>
               <a href="./" className={`hover:text-primary ${currentUrl === "" ? "text-primary" : undefined}`}>

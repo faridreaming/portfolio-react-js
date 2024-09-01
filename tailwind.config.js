@@ -8,7 +8,7 @@ export default {
         sans: ["Open Sans", "sans-serif"],
       },
       colors: {
-        primary: "#4E31AA",
+        primary: "#48CFCB",
       },
     },
   },
