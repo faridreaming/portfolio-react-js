@@ -4,7 +4,7 @@ import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
-    <footer className="mt-24 w-full bg-primary">
+    <footer className="mt-12 w-full bg-primary sm:mt-24">
       <div className="container mx-auto max-w-4xl px-8 py-10 sm:pb-48 sm:pt-20">
         <h2 className="mb-8 font-poppins font-bold uppercase tracking-widest text-white sm:mb-10 sm:text-2xl">
           Contact me for collaboration and speaking engagement opportunities!
