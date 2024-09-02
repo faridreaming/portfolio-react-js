@@ -8,7 +8,7 @@ const Header = ({ brandName }) => {
           {`${brandName}.`}
         </a>
         <nav className="tracking-wider">
-          <ul className="flex h-full items-center justify-between whitespace-nowrap text-xs sm:gap-16">
+          <ul className="flex h-full items-center justify-between whitespace-nowrap text-xs sm:gap-12">
             <li>
               <a href="./" className={`hover:text-primary ${currentUrl === "" ? "text-primary" : undefined}`}>
                 Home
