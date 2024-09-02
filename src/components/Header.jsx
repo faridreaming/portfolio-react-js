@@ -4,7 +4,7 @@ const Header = ({ brandName }) => {
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto flex max-w-4xl flex-col gap-4 bg-white px-8 py-10 sm:flex-row sm:justify-between">
-        <a href="./" className="font-poppins text-lg font-bold uppercase tracking-widest text-black">
+        <a href="./" className="font-poppins text-xl font-bold uppercase tracking-[.25rem] text-black">
           {`${brandName}.`}
         </a>
         <nav className="tracking-wider">
