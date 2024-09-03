@@ -24,15 +24,13 @@ const PDFViewer = ({ fileUrl }) => {
     };
   }, []);
 
-  const openFile = () => {
-    window.open(fileUrl, "_blank");
-  };
-
   return (
     <div className="relative shadow-none sm:shadow">
       <a
         className="absolute right-0 top-0 z-40 mr-8 flex cursor-pointer items-center justify-center bg-primary p-1 transition hover:opacity-50 sm:mr-0 sm:p-2"
-        onClick={openFile}
+        href={fileUrl}
+        target="_blank"
+        rel="noreferrer"
       >
         <img src={eye} alt="Open document" className="w-5 invert sm:w-6" />
       </a>
