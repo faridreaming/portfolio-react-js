@@ -5,10 +5,10 @@ import englishGame from "./english-game.webp";
 
 const portfolio = [
   {
-    title: "Bookshelf Apps",
-    techStack: "HTML, CSS, JavaScript",
-    image: bookshelfApps,
-    link: "https://faridreaming.github.io/submission-aplikasi-pengelolaan-data/",
+    title: "Portfolio Tailwind CSS",
+    techStack: "HTML, CSS, JavaScript, Tailwind CSS",
+    image: portfolioTailwindCSS,
+    link: "https://faridreaming.github.io/",
   },
   {
     title: "Food Blog",
@@ -17,16 +17,16 @@ const portfolio = [
     link: "https://faridreaming.github.io/final-project-design-web/",
   },
   {
-    title: "Portfolio Tailwind CSS",
-    techStack: "HTML, CSS, JavaScript, Tailwind CSS",
-    image: portfolioTailwindCSS,
-    link: "https://faridreaming.github.io/",
-  },
-  {
     title: "English Game",
     techStack: "HTML, CSS, JavaScript, Tailwind CSS",
     image: englishGame,
     link: "https://faridreaming.github.io/english-game/",
+  },
+  {
+    title: "Bookshelf Apps",
+    techStack: "HTML, CSS, JavaScript",
+    image: bookshelfApps,
+    link: "https://faridreaming.github.io/submission-aplikasi-pengelolaan-data/",
   },
 ];
 
