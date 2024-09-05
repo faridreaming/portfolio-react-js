@@ -24,7 +24,7 @@ const Certifications = ({ pageTitle }) => {
                       <li key={index}>
                         <span className="font-semibold text-slate-700">{cert.title}</span> - {cert.company}{" "}
                         <span className="italic">({cert.date})</span> <br />
-                        <a href={cert.link} className="text-blue-600 underline">
+                        <a href={cert.link} target="_blank" className="text-blue-600 underline">
                           View Certificate
                         </a>
                       </li>
