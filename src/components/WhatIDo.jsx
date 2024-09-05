@@ -1,8 +1,10 @@
 const WhatIDo = () => {
   return (
     <div className="container mx-auto max-w-4xl px-8 py-10 sm:p-20">
-      <h2 className="mb-10 font-poppins text-2xl font-bold uppercase tracking-widest text-black sm:mb-20">What I Do</h2>
-      <div className="sm:text-md grid gap-10 text-sm sm:grid-cols-2 sm:gap-y-20">
+      <h2 className="mb-8 font-poppins text-xl font-bold uppercase tracking-[.25rem] text-black sm:mb-20 sm:text-2xl">
+        What I Do
+      </h2>
+      <div className="grid gap-10 text-sm sm:grid-cols-2 sm:gap-y-20 sm:text-base">
         <div>
           <h3 className="mb-4 font-poppins font-medium text-black">Software Development</h3>
           <ul className="list-outside list-disc px-8 leading-relaxed">

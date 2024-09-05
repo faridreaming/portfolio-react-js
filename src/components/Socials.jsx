@@ -2,7 +2,7 @@ import { github, linkedin, instagram } from "../assets/icons";
 
 const Socials = () => {
   return (
-    <div className="flex gap-4 sm:self-center">
+    <div className="flex gap-4 sm:self-center [&>a:hover]:opacity-50 [&>a]:transition">
       <a href="https://github.com/faridreaming/" target="_blank" rel="noreferrer">
         <img src={github} alt="Github" className="w-6 invert" />
       </a>
