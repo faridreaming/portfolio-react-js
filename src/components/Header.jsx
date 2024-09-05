@@ -15,13 +15,13 @@ const Header = ({ brandName }) => {
               </a>
             </li>
             <li>
-              <a href="./cv" className={`hover:text-primary ${currentUrl === "cv" ? "text-primary" : undefined}`}>
+              <a href="./#/cv" className={`hover:text-primary ${currentUrl === "cv" ? "text-primary" : undefined}`}>
                 CV
               </a>
             </li>
             <li>
               <a
-                href="./portfolio"
+                href="./#/portfolio"
                 className={`hover:text-primary ${currentUrl === "portfolio" ? "text-primary" : undefined}`}
               >
                 Portfolio
@@ -29,7 +29,7 @@ const Header = ({ brandName }) => {
             </li>
             <li>
               <a
-                href="./certifications"
+                href="./#/certifications"
                 className={`hover:text-primary ${currentUrl === "certifications" ? "text-primary" : undefined}`}
               >
                 Certifications
